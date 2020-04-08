@@ -1,11 +1,6 @@
-# first_stateless
+# first_stateful
 
-A basic flutter application for Statelesss Widget.
-
-## Details
-
-The application contains a simple stateless widget creating a list view for showing cars.
-This is the first example from the book: learn google flutter fast 65 example by Mark Clow
+A new Flutter project.
 
 ## Getting Started
 
