@@ -13,7 +13,11 @@ class DatabaseProvider {
   Database _database;
 
   Future <Database> get database async {
-    if (database != null) return _database;
+    if (_database != null)
+    {
+      print("here $_database");
+      return _database;
+    }
     _database = await createDatabase();
     return _database;
   }

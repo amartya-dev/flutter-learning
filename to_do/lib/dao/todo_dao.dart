@@ -26,6 +26,7 @@ class ToDoDao {
       }
     }
     else{
+      print (db);
       result = await db.query(
         toDoTable,
         columns: columns
